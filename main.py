@@ -39,7 +39,7 @@ def game():
         # print(choice_b)
         print(message_b)
         # print(highest_follower)
-        user_choice = input("Who has more followers? Type 'A' or 'B':")
+        user_choice = input("Who has more followers? Type 'A' or 'B':").upper()
 
         if compare_user_choice(user_input=user_choice, higher_choice=highest_follower):
             streak += 1
@@ -49,7 +49,7 @@ def game():
             game_over = True
             print("Game Over: Your last guess was incorrect.")
 
-    play_again = input("Would you like to play again? Type'y' or 'n': ")
+    play_again = input("Would you like to play again? Type'y' or 'n': ").lower()
     if play_again == 'y':
         os.system("clear")
         game()
