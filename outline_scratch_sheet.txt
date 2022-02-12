@@ -1,0 +1,31 @@
+# Step 1: Break the Problem Down into Tasks
+# Step 2: Start with the easiest task
+# Step 3: Turn the task into comments
+# Step 4: Write Code > Run Code > Fix code
+# Step 5: Next Task
+
+TASKS
+1. display logo
+2. get/ display items to compare
+3. display the vs logo
+5. get choice from the users input
+6. compare the amount of followers of the two items -> determine the largest of the two
+7. provide feedback to user on right or wrong
+8 if right streak += 1, if wrong clear the streak
+9. display the next comparision
+10. game ends when they get it wrong
+
+1a. import the logo
+1b. print the logo
+2a. import data
+2b. create two variables and assign each one a random choice from the data
+2c. display a formatted sting of the data contained within each variable
+3a. print vs logo
+5a. get user input and save result to a variable
+6a. compare the two items to see who has the most followers dict_name['follower_count']
+7a. compare users choice against the highest amount
+7b. set the win flag (if i am using one) to 1
+8a. if win is 1 += streak
+8b. if win is 0 streak = 0
+9a. if win they got it right display the next comparision
+9b. if they got it wrong reset the game.
